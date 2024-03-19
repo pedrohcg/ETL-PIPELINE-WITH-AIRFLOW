@@ -1,3 +1,4 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/pedrohcg/ETL-PIPELINE-WITH-AIRFLOW/blob/main/README.en.md)
 
 # Pipeline ETL Usando Airflow
 
