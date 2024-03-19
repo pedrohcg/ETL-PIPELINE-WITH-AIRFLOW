@@ -10,7 +10,7 @@ import pandas as pd
 def api_data_extract():
     now = datetime.datetime.now()
     
-    api_data = requests.get("http://api.weatherapi.com/v1/current.json?key=c8cc17ac554d4ffb90c184403241803&q=Joao Pessoa&aqi=yes")
+    api_data = requests.get("http://api.weatherapi.com/v1/current.json?key=&q=Joao Pessoa&aqi=yes")
     
     # Converts data to JSON
     data = api_data.json()
