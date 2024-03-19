@@ -1,11 +1,11 @@
 
-# ETL Pipeline Using Airflow
+# Pipeline ETL Usando Airflow
 
-## Description
+## Descrição
 
 Este projeto tem como objetivo desenvolver um pipeline ETL utilizando Airflow para obter dados sobre o clima de uma cidade espec[ifica a cada hora. Os dados são extraídos usando a WheatherAPI, depois são transformados com python e é feito verificação de qualidade dos dados. Por fim os dados são carregados em um banco de dados sqlite para que possamos usar sql para analisá-los e também são salvos em um arquivo csv.
 
-## Technologies
+## Tecnologias
 
 Esse software usa as seguintes tecnologias:
 
@@ -16,7 +16,7 @@ Esse software usa as seguintes tecnologias:
  - [SQLite](https://www.sqlite.org/)
  - [Pandas](https://pandas.pydata.org/)
 
-## How To use
+## Como Usar
 
 Para executar este projeto você precisará do Docker instalado em seu computador, também precisará de uma conta WeatherAPI para poder gerar uma chave API e, em seguida, precisará colocar sua chave na solicitação get no script de etl. Então você precisará executar os seguintes comandos em seu terminal:
 
